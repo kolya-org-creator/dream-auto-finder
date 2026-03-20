@@ -23,6 +23,7 @@ const Index = () => {
       <Features />
       <PopularCars onCarClick={setSelectedCar} />
       <Catalog onCarClick={setSelectedCar} />
+      <Promos />
       <About />
       <Contacts />
       <Footer />
